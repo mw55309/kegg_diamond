@@ -1,0 +1,7 @@
+name: diamond 
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - kraken=1.1.1

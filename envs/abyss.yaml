@@ -1,0 +1,9 @@
+name: cutadapt
+channels:
+  - anaconda
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - abyss=2.2.3
+  - make

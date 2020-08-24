@@ -1,0 +1,8 @@
+name: kraken_summary 
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+  - r
+dependencies:
+  - r-xlsx

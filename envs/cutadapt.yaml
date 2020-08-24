@@ -1,0 +1,10 @@
+name: cutadapt
+channels:
+  - anaconda
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - cutadapt=1.16
+  - wget
+  - curl

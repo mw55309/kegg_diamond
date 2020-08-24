@@ -1,0 +1,14 @@
+name: gatb 
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - gatb
+  - pip
+  - pip:
+    - mathstats 
+    - networkx
+    - scipy
+    - pyfasta
+    - pysam==0.8.3
